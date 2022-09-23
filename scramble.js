@@ -184,6 +184,9 @@ btn.addEventListener('click', function(){
         newWords = getRandomWords();
         // console.log(newWords.split(""));
         randScrambledWords = getScrambledWords(newWords.split(""));
+        while (randScrambledWords.join("") == newWords){
+            randScrambledWords = getScrambledWords(newWords.split(""));
+        }
         // console.log(randScrambledWords.join(""))
         document.getElementById('msgg').style.color = "#000000";
         msg.innerHTML = `Guess the word : ${randScrambledWords.join("")}`;
