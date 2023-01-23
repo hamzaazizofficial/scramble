@@ -6,7 +6,6 @@ let initialScore = 0;
 let newWords = "";
 let randScrambledWords = "";
 
-
 let words = [
     "newsdealer",
     "acted",
