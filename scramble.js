@@ -7,6 +7,7 @@ let newWords = "";
 let randScrambledWords = "";
 
 
+
 let words = [
     "newsdealer",
     "acted",
