@@ -1,7 +1,6 @@
 # Scramble
 
 
-
 <a href="https://hamzaazizofficial.github.io/scramble/">Scramble</a> is a web based game in which words are arranged in the wrong order so that they do not make sense. You will get +100 points if you guess the right word else your score will become 0.
 
 ## Screenshots
